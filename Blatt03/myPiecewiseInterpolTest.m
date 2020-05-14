@@ -1,4 +1,32 @@
-clc;       % clear the Wommand Window
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%%  Numerische Mathematik fuer Physik und Ingenieurwissenschaften 2020     %%%
+%%%  Programmierabgaben (Praktischer Teil des Uebungungsblattes)            %%%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%  Student 1: Nico, Guth
+%  Unimail-adress: nico.guth@tu-dortmund.de
+%
+%  Student 2: David, Venker
+%  Unimail-adress: david.venker@tu-dortmund.de
+%
+% Uebungszettel-Nr: Blatt 3
+% Aufgabennummer:   3.1b
+% Program name:     myPiecewiseInterpolTest
+%
+% Program(version): MatLab R2020a
+% OS:               Windows 10 64bit
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% Description of the program
+%         
+% Vergleicht die Stückweise Lineare mit der Newton Interpolation
+%       am Beispiel exp(x) und f(x)=1/(1+25*x^2)
+%
+% Zu beobachten:
+%   Die Newton Interpolation konvergiert schneller für exp(x)
+%   Dies liegt daran, dass exp(x) eine 'runde' Funktion ohne Sprungstellen
+%   in der Ableitung ist
+%   allerdings bleibt der Fehler bei f(x) ab n=4 gleich
+clc;       % clear the Command Window
 close all; % close all plots etc. 
 clear all; % deletes all data in the Workspace
 

@@ -1,3 +1,28 @@
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%%  Numerische Mathematik fuer Physik und Ingenieurwissenschaften 2020     %%%
+%%%  Programmierabgaben (Praktischer Teil des Uebungungsblattes)            %%%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%  Student 1: Nico, Guth
+%  Unimail-adress: nico.guth@tu-dortmund.de
+%
+%  Student 2: David, Venker
+%  Unimail-adress: david.venker@tu-dortmund.de
+%
+% Uebungszettel-Nr: Blatt 3
+% Aufgabennummer:   3.1a
+% Program name:     myPiecewiseInterpol
+%
+% Program(version): MatLab R2020a
+% OS:               Windows 10 64bit
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% Description of the program
+% Wertet die Stückweise lineare Interpolation aus.                   
+% Input: x sind die Stuetzstellen
+%        f sind die Funktionswerte an den Stützstellen
+%        xEval sind die x-Stellen die Ausgewertet werden sollen
+%
+% Output: yEval Auswertung der stückweisen Interpolation
 function [yEval] = myPiecewiseInterpol(x,f,xEval)
     yEval = zeros(1,length(xEval));
     % Berechne Summe von i=0 bis n über f(x_i)*phi_i(x)
