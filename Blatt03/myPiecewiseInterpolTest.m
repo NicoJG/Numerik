@@ -32,7 +32,7 @@ clear all; % deletes all data in the Workspace
 
 format long;
 
-f = @(x) 1./1+25.*x.^2;
+f = @(x) 1./(1+25.*x.^2);
 
 % Berechne Gitter Delta
 m = 100;
