@@ -1,3 +1,21 @@
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%%  Numerische Mathematik fuer Physik und Ingenieurwissenschaften 2020     %%%
+%%%  Programmierabgaben (Praktischer Teil des Uebungungsblattes)            %%%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%  Student 1: Nico, Guth
+%  Unimail-adress: nico.guth@tu-dortmund.de
+%
+%  Student 2: David, Venker
+%  Unimail-adress: david.venker@tu-dortmund.de
+%
+% Uebungszettel-Nr: Blatt 5
+% Aufgabennummer:   5.1b
+% Program name:     myQuadraturSum1DTest
+%
+% Program(version): MatLab R2020a
+% OS:               Windows 10 64bit
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 clc;close all;clear all;
 
 format long;
