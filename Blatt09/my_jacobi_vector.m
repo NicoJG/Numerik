@@ -1,3 +1,21 @@
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%%  Numerische Mathematik fuer Physik und Ingenieurwissenschaften 2020     %%%
+%%%  Programmierabgaben (Praktischer Teil des Uebungungsblattes)            %%%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%  Student 1: Nico, Guth
+%  Unimail-adress: nico.guth@tu-dortmund.de
+%
+%  Student 2: David, Venker
+%  Unimail-adress: david.venker@tu-dortmund.de
+%
+% Uebungszettel-Nr: Blatt 9
+% Aufgabennummer:   9.1
+% Program name:     my_jacobi_vector 
+%
+% Program(version): MatLab R2020a
+% OS:               Windows 10 64bit
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 function [x,numit] = my_jacobi_vector(A,b,x0,eps,maxit)
 x = x0;
 e = NaN;
